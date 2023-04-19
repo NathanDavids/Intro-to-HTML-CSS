@@ -1,0 +1,67 @@
+body {
+  font-family: sans-serif;
+}
+
+ol {
+  background: #ccc;
+}
+
+nav ul li {
+  display: flex;
+  border: 1px solid black;
+  border-bottom: 0px;
+  padding: 5px;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  display:none;
+}
+
+article:target {
+  display:block;
+}
+
+article {
+  margin-left: 40px;
+  margin-top: 0px;
+  border: 1px solid black;
+}
+
+#article1 img {
+  float: left;
+  flex-wrap: wrap;
+  border: 3px solid burlywood;
+}
+
+#article2 img {
+  float: right;
+  flex-wrap: wrap;
+  border: 3px solid burlywood;
+}
+
+#article3 img {
+  float: left;
+  flex-wrap: wrap;
+  border: 3px solid burlywood;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid burlywood;
+}
+
+.images img:first-child {
+  flex: 2;
+  min-width:400px;
+}
+
+.images img:last-child {
+  flex: 1;
+  min-width:200px;  
+}
